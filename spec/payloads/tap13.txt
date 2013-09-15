@@ -1,0 +1,19 @@
+TAP version 13
+ok 1 Description # Directive
+# Diagnostic
+  ---
+  message: 'Failure message'
+  severity: fail
+  data:
+    got:
+      - 1
+      - 3
+      - 2
+    expect:
+      - 1
+      - 2
+      - 3
+  ...
+ok 47 Description
+ok 48 Description
+more tests....

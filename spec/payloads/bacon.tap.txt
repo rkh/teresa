@@ -1,0 +1,12 @@
+ok 1        - should be empty
+ok 2        - should have zero size
+ok 3        - should raise on trying fetch any index
+ok 4        - should have an object identity
+ok 5        - should be a palindrome
+not ok 6    - should have super powers: FAILED
+# Bacon::Error: no super powers found
+# 	./whirlwind.rb:39: A new array - should have super powers
+# 	./whirlwind.rb:38
+# 	./whirlwind.rb:3
+1..6
+# 6 tests, 9 assertions, 1 failures, 0 errors

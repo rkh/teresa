@@ -1,0 +1,1 @@
+1..0 # skip because English-to-French translator isn't installed
